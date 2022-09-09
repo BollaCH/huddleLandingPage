@@ -141,6 +141,10 @@ body {
     margin-bottom: 2rem;
   }
 }
+.footer__icons a {
+  text-decoration: none;
+  color: #fff;
+}
 .footer__icons--item {
   width: 4rem;
   height: 4rem;
@@ -150,6 +154,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.footer__icons--item:hover, .footer__icons--item:hover a {
+  cursor: pointer;
+  border-color: hsl(300deg, 69%, 71%);
+  color: hsl(300deg, 69%, 71%);
 }
 
 .attribution {
